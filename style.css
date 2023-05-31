@@ -67,6 +67,24 @@ transition:all 0.4s;
         display: block;
      }
      .ul1 {
-       display: none;
+       height: 0px;
+       position: absolute;
+       top: 80px;
+       left: 0;
+       right: 0;
+       width: 100%;
+       background-color: rgba(24, 21, 21, 0.705);
+       transition: all 0.2s;
+       display: block;
+       opacity: 0;
+       overflow: hidden;
+    }
+    .li1{
+        margin: auto;
+        transition:all 0.5s;
+    }
+    .ul1.active{
+        height: 270px;
+        opacity: 1;
     }
 }

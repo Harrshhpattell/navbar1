@@ -22,5 +22,13 @@
         <li class="li1"><a href="">About</a></li>
     </ul>
 </nav>
+
+<script>
+    hamburger = document.querySelector(".humburgerMenu");
+    hamburger.onclick = function(){
+        navBar = document.querySelector(".ul1");
+        navBar.classList.toggle("active");
+    }
+</script>
 </body>
 </html>

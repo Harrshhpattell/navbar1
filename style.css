@@ -32,12 +32,12 @@ padding: 20px;
 width: 70px;
 text-align: center;
 border-radius: 30px;
+transition:all 0.4s;
 }
 
 .li1:hover {
     background-color: rgb(52, 194, 52);
     border-radius: 30px;
-    transition: 0.4s;
     color: #fff;
 }
 .ul1 .li1 a {
@@ -45,15 +45,28 @@ border-radius: 30px;
     color: rgb(236, 233, 233);
 }
 
-.humburgerMenu i{
+.humburgerMenu{
    color: aliceblue;
-   font-size: 30px;
-    
+   cursor: pointer;
+   display: none;
 }
+
+.humburgerMenu:hover {
+    color: rgb(52, 194, 52);
+ }
 
 @media (max-width:900px){
     .ul1 {
         gap: 10px;
         padding-right: 10px;
+    }
+}
+
+@media (max-width:750px){
+    .humburgerMenu{
+        display: block;
+     }
+     .ul1 {
+       display: none;
     }
 }

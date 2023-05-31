@@ -44,3 +44,16 @@ border-radius: 30px;
     text-decoration: none;
     color: rgb(236, 233, 233);
 }
+
+.humburgerMenu i{
+   color: aliceblue;
+   font-size: 30px;
+    
+}
+
+@media (max-width:900px){
+    .ul1 {
+        gap: 10px;
+        padding-right: 10px;
+    }
+}

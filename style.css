@@ -74,7 +74,7 @@ transition:all 0.4s;
        right: 0;
        width: 100%;
        background-color: rgba(24, 21, 21, 0.705);
-       transition: all 0.2s;
+       transition: all 0.5s ease-in-out;
        display: block;
        opacity: 0;
        overflow: hidden;
@@ -85,6 +85,7 @@ transition:all 0.4s;
     }
     .ul1.active{
         height: 270px;
+        right: 0;
         opacity: 1;
     }
 }
